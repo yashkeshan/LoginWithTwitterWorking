@@ -4,6 +4,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def root():
     app.do_teardown_appcontext()
