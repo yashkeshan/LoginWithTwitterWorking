@@ -32,8 +32,8 @@ def authentication_url(consumer_key, consumer_secret, oauth_callback):
 
 
 def main():
-    api_key = "nfURLMfKIU0Iw0AHoTe4Z9yjx" # Yash_Keshan's Private API Key
-    api_secret_key = "uewG7Y6qKX0mhu5ydvDcWWObpCgaSBpugJ42vg7Wy4Z9sgTO9p" # Yash_Keshan's Private API_SECRET_KEY
+    api_key = "" # Private API Key
+    api_secret_key = "" # API_SECRET_KEY
     callback_url = "http://127.0.0.1/return" # Whitelisted Local Callback_URL on Twitter Dev Portal
     authentication_url(api_key, api_secret_key, callback_url) # Run the Authentication function by passing necessary inputs
 
